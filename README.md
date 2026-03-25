@@ -40,6 +40,22 @@ Cryptographic chain of custody via SHA-256 + S3 Object Lock (COMPLIANCE mode, 5-
 
 ---
 
+### 💸 Personal Finance AI Bot
+
+Telegram bot for personal finance management. Built it for myself — went from 5 significant debts down to 2 manageable ones, built an emergency fund, and have been growing liquidity since. Best proof of concept I could ask for.
+
+**What it does:**
+- Registers income and expenses via text, photo (OCR receipt scanning), or voice message (auto-transcribed)
+- Categorizes transactions automatically with a customizable category system
+- Generates financial summaries, charts, and AI-powered insights on demand
+- Manages payment reminders with automated notifications for pending payments
+- Full multi-user and group support — each user and group has completely isolated data
+
+**Commands:** `/ingreso` · `/resumen` · `/grafica` · `/insights` · `/pendientes` · `/recuerdame` · `/pagado` · `/reporte`
+
+**Stack:** Python · python-telegram-bot · AWS Bedrock · Claude 4.6 Sonnet · OpenCV · Tesseract OCR · Pandas · Matplotlib · Pydub
+
+---
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
