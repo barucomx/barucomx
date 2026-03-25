@@ -85,7 +85,7 @@ Telegram bot for personal finance management. Built it for myself — went from 
 
 **Commands:** `/ingreso` · `/resumen` · `/grafica` · `/insights` · `/pendientes` · `/recuerdame` · `/pagado` · `/reporte`
 
-**Stack:** Python · python-telegram-bot · AWS Bedrock · Claude 4.6 Sonnet Deepthinking · OpenCV · Tesseract OCR · Pandas · Matplotlib · Pydub
+**Stack:** Python · python-telegram-bot · AWS Bedrock · Claude (latest) Sonnet · OpenCV · Tesseract OCR · Pandas · Matplotlib · Pydub
 
 ---
 
