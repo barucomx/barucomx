@@ -40,6 +40,20 @@ Cryptographic chain of custody via SHA-256 + S3 Object Lock (COMPLIANCE mode, 5-
 
 ---
 
+### 🧾 SAT CFDI Bulk Downloader *(personal tooling)*
+
+Built originally as a client engagement — rejected because "nobody here understands Python." Refactored it and kept it. Now I use it to manage my own invoices.
+
+Integrates with Mexico's SAT web services using FIEL (digital signature) authentication to bulk-download CFDIs and fiscal metadata. Handles SAT's rate limits, exponential backoff, request state persistence across executions, and auto-organizes output XMLs by date and RFC. Includes a web dashboard for real-time monitoring.
+
+- Tracks request lifecycle end-to-end: from submission → SAT processing → package ready → download → XML extraction
+- State persisted in JSON — never loses progress between runs
+- Respects SAT's lifetime request limits per RFC automatically
+
+**Stack:** Python · SAT Web Services API · FIEL certificate auth · SQLite · FastAPI dashboard
+
+---
+
 ### 💸 Personal Finance AI Bot
 
 Telegram bot for personal finance management. Built it for myself — went from 5 significant debts down to 2 manageable ones, built an emergency fund, and have been growing liquidity since. Best proof of concept I could ask for.
@@ -53,9 +67,10 @@ Telegram bot for personal finance management. Built it for myself — went from 
 
 **Commands:** `/ingreso` · `/resumen` · `/grafica` · `/insights` · `/pendientes` · `/recuerdame` · `/pagado` · `/reporte`
 
-**Stack:** Python · python-telegram-bot · AWS Bedrock · Claude 4.6 Sonnet · OpenCV · Tesseract OCR · Pandas · Matplotlib · Pydub
+**Stack:** Python · python-telegram-bot · AWS Bedrock · Claude 3 Sonnet · OpenCV · Tesseract OCR · Pandas · Matplotlib · Pydub
 
 ---
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -66,7 +81,7 @@ Telegram bot for personal finance management. Built it for myself — went from 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 
-**Cloud:** AWS (Expert) · Azure · GCP · Huawei Cloud  
+**Cloud:** AWS (Expert) · Azure · GCP · Alibaba Cloud  
 **Security:** Zero Trust · SAST/DAST · OWASP · MITRE ATT&CK · CVE/CWE · CISSP · ISO 27001  
 **AI:** Claude 3 Sonnet · AWS Bedrock · RAG · Prompt Engineering  
 **Infra as Code:** Terraform · CloudFormation · AWS CDK  
@@ -83,3 +98,4 @@ AWS Certified Solutions Architect – Professional · CISSP
 ---
 
 📬 baruch.ortiz@gmail.com · [LinkedIn](https://www.linkedin.com/in/gerardo-david-baruch-ortiz-rosas-32459013/)
+
