@@ -99,9 +99,9 @@ Telegram bot for personal finance management. Built it for myself — went from 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 
-**Cloud:** AWS (Expert) · Azure · GCP · Alibaba Cloud  
+**Cloud:** AWS (Expert) · Azure · GCP · Huawei Cloud · Alibaba Cloud  
 **Security:** Zero Trust · SAST/DAST · OWASP · MITRE ATT&CK · CVE/CWE · CISSP · ISO 27001  
-**AI:** Claude 3 Sonnet · AWS Bedrock · RAG · Prompt Engineering  
+**AI:** Claude Sonnet · AWS Bedrock · RAG · Prompt Engineering  
 **Infra as Code:** Terraform · CloudFormation · AWS CDK  
 
 ---
