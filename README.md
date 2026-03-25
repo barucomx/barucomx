@@ -42,11 +42,11 @@ Automated WordPress content pipeline that preserves and replicates a publication
 **How it works:**
 - Ingests content from multiple RSS sources; SQLite deduplication prevents reprocessing
 - Analyzes writing samples to extract linguistic patterns, tone, structure, and vocabulary
-- Generates new articles via Claude 3.7 (AWS Bedrock) that are stylistically indistinguishable from the original author
+- Generates new articles via Claude 4.6 Deepthinking (AWS Bedrock) that are stylistically indistinguishable from the original author
 - Automatically enriches output with SEO metadata, keywords, and descriptions
 - Publishes directly to WordPress via REST API or saves as Markdown
 
-**Stack:** Python · AWS Bedrock · Claude 3.7 · Feedparser · WordPress REST API · SQLite · Markdown
+**Stack:** Python · AWS Bedrock · Claude 4.6 Deepthinking · Feedparser · WordPress REST API · SQLite · Markdown
 
 ---
 
@@ -85,7 +85,7 @@ Telegram bot for personal finance management. Built it for myself — went from 
 
 **Commands:** `/ingreso` · `/resumen` · `/grafica` · `/insights` · `/pendientes` · `/recuerdame` · `/pagado` · `/reporte`
 
-**Stack:** Python · python-telegram-bot · AWS Bedrock · Claude 3 Sonnet · OpenCV · Tesseract OCR · Pandas · Matplotlib · Pydub
+**Stack:** Python · python-telegram-bot · AWS Bedrock · Claude 4.6 Sonnet Deepthinking · OpenCV · Tesseract OCR · Pandas · Matplotlib · Pydub
 
 ---
 
