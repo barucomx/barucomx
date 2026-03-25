@@ -32,6 +32,24 @@ Each report speaks the language of its reader. No translation required between b
 
 ---
 
+### 🗞️ K'aay Foni — Automated Content Generation System *(freelance engagement)*
+*Currently in production at a media outlet.*
+
+*(K'aay = "song/chant" in Maya · Foni = "voice" in Greek)*
+
+Automated WordPress content pipeline that preserves and replicates a publication's original voice and writing style. Not just content generation — style-faithful content generation.
+
+**How it works:**
+- Ingests content from multiple RSS sources; SQLite deduplication prevents reprocessing
+- Analyzes writing samples to extract linguistic patterns, tone, structure, and vocabulary
+- Generates new articles via Claude 3.7 (AWS Bedrock) that are stylistically indistinguishable from the original author
+- Automatically enriches output with SEO metadata, keywords, and descriptions
+- Publishes directly to WordPress via REST API or saves as Markdown
+
+**Stack:** Python · AWS Bedrock · Claude 3.7 · Feedparser · WordPress REST API · SQLite · Markdown
+
+---
+
 ### 🧾 RexFort *(freelance engagement)*
 Full-stack SaaS compliance platform for Mexico's Art. 30-B CFF (SAT Reforma 2026).  
 Cryptographic chain of custody via SHA-256 + S3 Object Lock (COMPLIANCE mode, 5-year retention). 100K records ingested in ~2s of processing time. The only solution that notifies clients in real time when and how the SAT queries their data.
