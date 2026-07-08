@@ -16,6 +16,29 @@ Supports: **GitHub · GitLab · BitBucket · Azure DevOps · AWS CodeCommit · J
 
 Each finding comes with: severity classification, affected code, real-world impact, CWE/CVE reference, and a concrete fix with docs link. It's security training delivered at the exact moment a developer is most receptive — on their own code, before it causes damage.
 
+## Origin
+
+Kanul-Tekmor didn't start as a defense tool.
+
+It started as an attempt to break one.
+
+Before writing a single detection rule, I spent several weeks
+systematically attacking the guardrails of the LLMs I intended
+to use as the analysis engine — direct prompt injection, semantic
+reformulation, context manipulation, multi-turn evasion, and
+tool-use abuse, among other vectors. Some payloads worked. Many
+didn't. All of them taught me something.
+
+The patterns I documented during that adversarial phase became
+the foundation of Kanul-Tekmor's detection engine. It recognizes
+injection attempts and evasion techniques because those techniques
+were tested against it before it existed as a product.
+
+You can't build a reliable guardrail without first understanding
+how guardrails fail.
+
+A chain is only as strong as its weakest link.
+
 ---
 
 ### 🏛️ Themis-Mentor *(in development)*
