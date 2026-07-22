@@ -261,4 +261,4 @@ AWS Certified Solutions Architect – Professional · CISSP
 
 ---
 
-📬 baruch.ortiz@gmail.com · [LinkedIn](https://www.linkedin.com/in/gerardo-david-baruch-ortiz-rosas-32459013/)
+📬 baruch.ortiz@gmail.com · [LinkedIn](https://www.linkedin.com/in/baruch-ortiz/)
