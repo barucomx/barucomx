@@ -255,7 +255,7 @@ Telegram bot for personal finance management. Built it for myself — went from 
 ## Background
 
 10+ years operating cloud infrastructure at enterprise scale.  
-Reduced AWS monthly spend 91.3% ($92K → $8.6K). Scaled a financial platform from 16 TPS to 10M TPS. Executed zero-downtime multi-cloud migrations across AWS, Azure, GCP, and Alibaba Cloud. Sole technical owner of infrastructure, security program, and platform architecture for a SaaS fintech product processing 10M+ transactions/month.
+Reduced AWS monthly spend 91.3% ($92K → $8.6K). Scaled a financial platform from 16 TPS to 10k TPS. Executed zero-downtime multi-cloud migrations across AWS, Azure, GCP, and Alibaba Cloud. Sole technical owner of infrastructure, security program, and platform architecture for a SaaS fintech product processing 10M+ transactions/month.
 
 AWS Certified Solutions Architect – Professional · CISSP
 
